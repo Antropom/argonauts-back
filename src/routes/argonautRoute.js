@@ -5,7 +5,7 @@ const {
   findOne,
   search,
   create,
-} = require('../controllers/controller.sample')
+} = require('../controllers/argonautController')
 
 router.get('/', findAll)
 router.get('/:id', findOne)

@@ -1,7 +1,7 @@
 const express = require('express')
-const routeSample = require('./route.sample')
+const argonautRoute = require('./argonautRoute')
 const router = express.Router()
 
-router.use('/messages', routeSample)
+router.use('/argonauts', argonautRoute)
 
 module.exports = router

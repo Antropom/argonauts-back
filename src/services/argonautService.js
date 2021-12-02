@@ -15,7 +15,7 @@ const search = (query) => {
 
 const create = (datas) => {
   const argonaut = new ArgonautModel({
-    name: datas.argonaut,
+    name: datas.name,
   })
   return argonaut.save().then((result) => {
     return result
